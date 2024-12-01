@@ -1,0 +1,42 @@
+.Navigation{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.registerlogin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+
+}
+
+.Navigation li{
+    cursor: pointer;
+    list-style: none;
+    margin-left: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.Navigation a:hover{
+    color: red;
+}

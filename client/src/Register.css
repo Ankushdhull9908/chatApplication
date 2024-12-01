@@ -1,0 +1,29 @@
+.register{
+    min-width: 800px;
+  max-width: 900px;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.register form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    
+}
+
+form input,button{
+    height: 35px;
+    border: 0.3px solid #ddd;
+}
+
+form button{
+    height: 35px;
+    width: 120px;
+    background-color: green;
+    color: white;
+}
+
